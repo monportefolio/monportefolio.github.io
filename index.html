@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="icon" href="images/moi_camara-miniature.jpg">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif, Helvetica;
+            background: #f7f7f7;
+            color: #333;
+            
+        }
+
+        header {
+            background: #263c38;
+            color: white;
+            padding: 20px;
+            text-align: center;
+           /* margin-top:-10px;*/
+        }
+
+        nav {
+             position: sticky;
+             top: 1px;
+           /* z-index: 5;*/
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #292929;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            
+        }
+
+        h2 {
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+
+        .skills-list, .contact-list{
+            list-style: none;
+            padding: 0;
+            background: #f0f4ff;
+        }
+         #apropos{
+            background: #f0f4ff;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            background: #f0f4ff;
+            border-radius: 5px;
+        }
+        p{
+          font-size: 1.2rem;
+          
+         }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Abdoulaye CAMARA</h1>
+        <p>Développeur full-Web / en Service à la DGFP / Exploitation FUgaS / MTFP</p>
+    </header>
+
+    <nav>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#mesphoto">Photos</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>
+            Bonjour ! Je suis <strong>Abdoulaye CAMARA</strong>, ingénieur Informaticien passionné par l'administration de la base de données et le développement d'application web.  <br>
+            Voici mon portfolio où je présente mes projets, mes compétences, mes photos, mes differents comptes et contacts.
+        </p>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul class="skills-list">
+            <li><strong>Langages :</strong> Html, Css, JavaScript, Php</li>
+            <li><strong>Frameworks :</strong> Bootstrap</li>
+            <li><strong>Cms :</strong> Wordpress</li>
+            <li><strong>Bases de données :</strong> MySQL, Oracle, powerBI</li>
+            <li><strong>Editeur de code :</strong> Vs code</li>
+            <li><strong>Outils d'hergement:</strong> le git, Github.com, oracleapex.com</li>
+        </ul>
+    </section>
+    <section id="mesphoto">
+        <h2>Mes Photos</h2>
+     <p><img src="images/photo1.jpg" alt="photo1">
+        <img src="images/photo2.jpg" alt="photo2">
+        <img src="images/photo3.jpg" alt="photo3">
+        <img src="images/photo4.jpg" alt="photo4">
+        <img src="images/photo5.jpg" alt="photo5">
+        <a href="images/photo6.jpg"><img src="images/photo6.jpg" alt="photo6"></a>
+       <a href="images/photo7.jpg"><img src="images/photo7.jpg" alt="photo7"></a> 
+       <a href="images/photo8.jpg"><img src="images/photo8.jpg" alt="photo7"></a> 
+       <a href="images/photo9.jpg"><img src="images/photo9.jpg" alt="photo9"></a> 
+       <a href="images/photo9.jpg"><img src="images/photo11.jpg" alt="photo7"></a> 
+    </section>
+
+    <section id="projets">
+        <h2>Mes Projets</h2>
+          <div class="project">
+            <h3>Application web de la DNSI du Ministère du Travail et de la Fonction publique</h3>
+            <p>Un min site web pour la Direction Nationale des Systeme de l'Information pour la visibilité des activités des differents services </p>
+            <p><strong>Technologies :</strong> HTML et CSS</p>
+            <a href="https://abdoulayeapex.github.io/dnsifp/" target="_blank">Voir lapplication</a>
+        </div>
+
+        <div class="project">
+            <h3>Gestion de l'annuaire éléctronique de la Direction Nationale des Systemes d'information</h3>
+            <p>La gestion du personnels et les services et les activités de la direction nationale des systèmes d'information  </p>
+            <p><strong>Technologies :</strong> HTML, CSS, JavaScript, Oracle, Apex express</p>
+            <a href="#" target="_blank">Voir lapplication</a>
+        </div>
+
+        <div class="project">
+            <h3>Gestion de la prise en charge médical des agents de l'état</h3>
+            <p>Automatisation de la gestion de la prise en charge des agents de l'état en activité et à la retraite </p>
+            <p><strong>Technologies :</strong> HTML, CSS, JavaScript, Oracle, Apex express, Ords, sql, Pl/sql, CSI</p>
+            <a href="#" target="_blank">Voir sur l'appli</a>
+        </div>
+
+        <div class="project">
+            <h3>Application pour la gestion des usagers du Ministére du Travail et de la Fonction Publique </h3>
+            <p>Cette application permet de resencer tous les usagers (les fonctionnaires, les partenaires et les autres qui fequentent les services</p>
+            <p><strong>Technologies :</strong> Base de données Oracle, plateforme Apex, Analyse des données</p>
+            <a href="#" target="_blank">Voir l'appli</a>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-list"> 
+            <li><strong>Email :</strong> camaraphp@gmail.com / camaraords@gmail.com</li>
+            <li><strong>GitHub :</strong> <a href="https://github.com/abdoulayeapex/dnsifp/issues">Mon compte Github</a></li>
+            <li><strong>Site Officiel de la DNSI </strong><a href="https://abdoulayeapex.github.io/dnsifp/"> site officiel de la DNSI </a></li>
+            <li><strong>Mon Portefolio :</strong> <a href="#">portefolio Camara Apex</a></li>
+            <li><strong>LinkedIn :</strong> <a href="#">linkedin.com/in/camaraords</a></li>
+            <li><strong>Téléphone / WhatsApp :</strong> 622 38 16 90</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2025 - Camara Abdoulaye développeur full-stack 'Exploitation FUGAS'
+    </footer>
+
+</body>
+</html>
